@@ -13,19 +13,19 @@ function isUniform(arr) {
   }
   return true;
 }
-function same(arr) {
-  let zero = arr[0];
-  let result = function () {
-    arr.forEach((element) => {
-      if (zero !== element) {
-        return false;
-      } else {
-        return true;
-      }
-    });
-  };
-  return result;
-}
+// function same(arr) {
+//   let zero = arr[0];
+//   let result = function () {
+//     arr.forEach((element) => {
+//       if (zero !== element) {
+//         return false;
+//       } else {
+//         return true;
+//       }
+//     });
+//   };
+//   return result;
+// }
 function sumArray(arr) {
   let sum = 0;
   arr.forEach((element) => {
