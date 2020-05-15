@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(243, 245, 235);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  color: blueviolet;
+}
+hr {
+  border: 2px solid black;
+}
+p {
+  text-align: justify;
+}
