@@ -1,6 +1,12 @@
 let langs = require('langs');
 let franc = require('franc');
 
-let lang = franc('јас сум македонец и доаѓам од Македонија.');
-let result = langs.where('2', lang);
-console.log(result);
+let input = process.argv[2];
+let lang = franc(input);
+let result = langs.where('3', lang);
+
+if (lang === 'und') {
+	console.error('Sorry, cannot recognise language, please try with longer sample text!');
+} else {
+	console.log(`The language provided should be ${result.name}.`);
+}
