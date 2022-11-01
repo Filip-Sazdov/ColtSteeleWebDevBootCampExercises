@@ -48,6 +48,7 @@ reset.addEventListener('click', function () {
   playerTwo.classList.remove('gray');
   spanP1.classList.remove('win', 'loss');
   spanP2.classList.remove('win', 'loss');
+  playUpTo.value = 1;
 })
 
 
