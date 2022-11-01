@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Score Keeper 2</title>
+</head>
+
+<body>
+  <div class="container">
+    <img id='responsive' src="lisa-keffer-1OFVPO7SPxg-unsplash.jpg" alt="ping pong paddle">
+    <h2>Ping Pong Score Keeper</h2>
+    <section class="score">
+      <span id='P1'>0</span> to <span id='P2'>0</span>
+    </section>
+    <p>Use the buttons below to keep score.</p>
+    <section class="upTo">
+      <p class="inlineBlock"><b>Playing to:</b></p>
+      <input type="number" name="numberInput" id="numberInput">
+    </section>
+    <section class="buttons">
+      <input class="green" type="button" value="+1 Player One" id="player1">
+      <input class="blue" type="button" value="+1 Player Two" id="player2">
+      <input class="red" type="button" value="Reset" id="reset">
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
